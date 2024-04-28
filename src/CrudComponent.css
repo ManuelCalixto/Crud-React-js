@@ -1,0 +1,97 @@
+.crud-container {
+    margin: 20px;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    background-color: beige;
+    padding: 8px;
+    margin-right: 10px;
+    color: black;
+  }
+
+  .crud-titulo{
+    color: black;
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  .table-container {
+    overflow-x: auto; /* Permite el desplazamiento horizontal si la tabla es demasiado grande */
+  }
+  
+  .user-table {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espaciado inferior para separar la tabla de otros elementos */
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid hsl(0, 0%, 2%);
+    color: black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #b698ea;
+    color: rgb(4, 4, 4);
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #837ff2;
+  }
+  
+  .user-table tr:hover {
+    background-color: #68a1e6;
+  }
+  
+  .edit-input {
+    width: 100%;
+    padding: 6px;
+  }
+  
+  .editing {
+    background-color: #f0f8ff; /* Color de fondo para resaltar la edición */
+  }
+  
+  .action-buttons button {
+    margin-right: 5px;
+    padding: 4px 8px;
+    background-color: #fa5669;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #496df1;
+  }
+  
+  .save-button,
+  .cancel-button {
+    background-color: #f44336;
+  }
+  
+  .save-button:hover,
+  .cancel-button:hover {
+    background-color: #d32f2f;
+  }
+  .mi-nombre{
+    color: black;
+    padding: 5px;
+  }
